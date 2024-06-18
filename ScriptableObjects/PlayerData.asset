@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3e856f096b21b47afb249def28532e, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  Move: 1
+  Sprint: 1
+  Crouch: 1
+  Jump: 1
+  Dash: 1
+  LedgeHang: 1
+  LedgeClimb: 1
+  WallGrab: 1
+  WallClimb: 1
+  WallSlide: 1
+  WallJump: 1
+  StateChangeDebug: 0
+  GroundedCheckGizmo: 1
+  UncrouchCheckGizmo: 0
+  LedgeCheckGizmo: 0
+  LedgeClimbCheckGizmo: 0
+  LedgeHangCheckGizmo: 0
+  WallCheckGizmo: 0
+  WallGrabCheckGizmo: 0
+  GroundLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  WallLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  CantExistIn:
+    serializedVersion: 2
+    m_Bits: 8
+  StandBoxColliderOffset: {x: -0.002946109, y: 0.5982158}
+  StandBoxColliderSize: {x: 0.3941078, y: 1.196432}
+  CrouchBoxColliderOffset: {x: 0.01899853, y: 0.3990251}
+  CrouchBoxColliderSize: {x: 0.437997, y: 0.7980502}
+  LedgeBoxColliderOffset: {x: -0.002946109, y: 0.5982158}
+  LedgeBoxColliderSize: {x: 0.3941078, y: 1.196432}
+  WallBoxColliderOffset: {x: -0.002946109, y: 0.5982158}
+  WallBoxColliderSize: {x: 0.3941078, y: 1.196432}
+  GroundedCheckBoxLength: 0.14
+  GroundedCheckBoxShrinkX: 0.01
+  MoveSpeed: 7
+  SprintSpeed: 9
+  CrouchMoveSpeed: 2.5
+  Acceleration: 6
+  VelocityPower: 1
+  GroundFrictionAmount: 1.52
+  VariableJumpHeight: 1
+  AmountOfJumps: 1
+  JumpHeight: 0.95
+  JumpDistance: 2.7
+  JumpYThresh: 5
+  JumpBuffer: 0.2
+  CoyoteTime: 0.2
+  JumpCoolDown: 0.2
+  MinJumpTime: 0
+  JumpCutVelocity: 2
+  FixCantUncrouchWhenTouchingWall: 1
+  UncrouchCheckShrink: {x: 0.05, y: 0.05}
+  AutoLedgeClimb: 0
+  LedgeCheckLength: 0.1
+  LedgeCheck1OffsetY: 0
+  LedgeCheck2OffsetY: -0.45
+  LedgeClimbCheckShrink: {x: 0.05, y: 0.05}
+  LedgeHangCheckShrink: {x: 0.05, y: 0.05}
+  LedgeClimbOffset: {x: -0.19, y: -1.23}
+  LedgeHangOffset: {x: -0.19, y: -1.23}
+  CanMoveInAir: 1
+  FallGravityMultiplier: 2.6
+  MaxFallForce: -19.2
+  AddForceParallelToSlope: 1
+  PreventBouncingOnSlope: 1
+  AntiBounceForce: 0.75
+  PreventSlidingOnSlopesWhenIdle: 1
+  NormalFriction: 0
+  SlopeFriction: 100
+  DashTowardMouse: 1
+  AmountOfDashes: 1
+  DashCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 34.689507
+      outSlope: 34.689507
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.031713907
+    - serializedVersion: 3
+      time: 0.10580444
+      value: 1
+      inSlope: 0.80333334
+      outSlope: 0.80333334
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08614794
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  DashStrength: 17
+  DashLength: 0.1
+  DashHangTime: 0.2
+  TimeBetweenDashes: 0.25
+  DashRegenerationCooldown: 0.35
+  WallGrabCheckShrink: {x: 0.05, y: 0.05}
+  WallCheckDistance: 0.02
+  WallCheck1Height: 81.4
+  WallCheck2Height: 60.5
+  WallCheck3Height: 40.5
+  ShouldHaveGrabStamina: 0
+  GrabStamina: 3
+  WallClimbSpeed: 3
+  SlideSpeed: 5
+  SlideSpeedSmoothTime: 0.3
+  WallCheckBothSidesForWallJump: 1
+  WallJumpMoveSpeed: 5
+  ReturnMovementControlTimer: 0.15
+  WallJumpTime: 0.06
+  WallJumpYThresh: 1.3
+  WallJumpCooldown: 0.1
+  LinearWallJumpForce: {x: 6, y: 5}
